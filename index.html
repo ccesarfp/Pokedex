@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+    <!--CSS Reset-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--Estilos-->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/size-screen.css">
+    <link rel="stylesheet" href="./assets/css/pokemon.css">
 </head>
 <body>
-    
+    <header>
+        <h1 id="title">Pokedex</h1>
+        <button class="circle"></button>
+        <button id="circle-one"></button>
+        <button id="circle-two"></button>
+        <button id="circle-three"></button>
+        <img id="line" src="./assets/img/line.png">
+    </header>
+
+    <main>
+        <section id="box" class="pokemon-bg">
+            <a href="" id="return">return</a>
+            <div id="pokemon">
+                <div id="detail">
+                    <span id="name">Bulbassaur</span>
+                    <span id="number">#00001</span>
+                </div>
+
+                <ol id="types">
+                    <li id="type">grass</li>
+                    <li id="type">poison</li>
+                </ol>
+
+                <img id="photo" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbassaur">
+            </div>
+
+            <a href="" id="next">next</a>
+
+            <div style="clear: both;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Developed by Caio Padilha</p>
+    </footer>
 </body>
 </html>

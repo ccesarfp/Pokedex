@@ -1,0 +1,141 @@
+/**Ajuste Tamanho de Linha e Botões**/
+@media screen and (max-width: 1920px) {
+    #line {
+        margin-top: 2%;
+    }
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+    #circle-one {
+        width: 30px;
+        height: 30px;
+        left: 8%;
+    }
+    #circle-two {
+        width: 30px;
+        height: 30px;
+        left: 11%;
+    }
+    #circle-three {
+        width: 30px;
+        height: 30px;
+        left: 14%;
+    }
+    #box {
+        width: 40%;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    #line {
+        margin-top: 6%;
+    }
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+    #circle-one {
+        width: 25px;
+        height: 25px;
+        left: 10%;
+    }
+    #circle-two {
+        width: 25px;
+        height: 25px;
+        left: 14%;
+    }
+    #circle-three {
+        width: 25px;
+        height: 25px;
+        left: 18%;
+    }
+    #box {
+        width: 55%;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 900px) {
+    #line {
+        margin-top: 10%;
+    }
+    .circle {
+        width: 65px;
+        height: 65px;
+    }
+    #circle-one {
+        width: 20px;
+        height: 20px;
+        left: 12%;
+    }
+    #circle-two {
+        width: 20px;
+        height: 20px;
+        left: 16%;
+    }
+    #circle-three {
+        width: 20px;
+        height: 20px;
+        left: 20%;
+    }
+    #box {
+        width: 70%;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #line {
+        margin-top: 18%;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+    #circle-one {
+        width: 20px;
+        height: 20px;
+        left: 22%;
+    }
+    #circle-two {
+        width: 20px;
+        height: 20px;
+        left: 30%;
+    }
+    #circle-three {
+        width: 20px;
+        height: 20px;
+        left: 38%;
+    }
+    #box {
+        width: 90%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 300px) {
+    #line {
+        margin-top: 18%;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+    #circle-one {
+        width: 20px;
+        height: 20px;
+        left: 24%;
+    }
+    #circle-two {
+        width: 20px;
+        height: 20px;
+        left: 34%;
+    }
+    #circle-three {
+        width: 20px;
+        height: 20px;
+        left: 44%;
+    }
+    #box {
+        width: 90%;
+        height: 300px;
+    }
+}
